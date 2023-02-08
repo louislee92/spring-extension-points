@@ -13,6 +13,6 @@ import org.springframework.stereotype.Component;
 public class MyApplicationListener implements ApplicationListener {
     @Override
     public void onApplicationEvent(ApplicationEvent event) {
-        log.info("收到事件：" + event);
+//        log.info("收到事件：" + event);
     }
 }
