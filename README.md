@@ -4,6 +4,8 @@ spring常用扩展点
 
 # Bean的生命周期
 
+![img.png](img.png)
+
 1. 初始化容器
 2. 加载BeanFactoryPostProcessor实现类
 3. 执行BeanFactoryPostProcessor的postProcessBeanFactory方法
